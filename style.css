@@ -1,0 +1,117 @@
+/* AREA NAVBAR */
+.navbar {
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.navbar-brand {
+    color: black;
+    font-size: 25px;
+    font-family: "Shantell Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+    "BNCE" 0,
+    "INFM" 0,
+    "SPAC" 0;
+}
+
+
+.btn-solid {
+    margin-left: auto;
+}
+
+/* AREA HERO */
+.hero {
+    min-height: 568px;
+    padding: 40px 7%;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.hero-content {
+    width: 50%;
+    color: #222;
+}
+
+.hero-content h1 {
+    font-size: 40px;
+    margin-bottom: 18px;
+}
+
+.hero-content p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.hero-content a {
+    display: inline-block;
+    background: #020202;
+    color: #222;
+    padding: 9px 13px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.hero-image {
+    width: 50%;
+    height: 478px;
+    background: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 15px;
+}
+
+/* AREA FEATURES */
+
+.features {
+    text-align: center;
+    padding: 35px 7%;
+    background-color: #030200;
+    color: #ffffff;
+}
+
+.features h2 { font-size: 23px; }
+.features p { font-size: 12px; }
+
+.features-1 {
+    display: flex;
+    gap: 17px;
+    margin-top: 35px;
+}
+
+.features-1 div {
+    flex: 1;
+    border: 1px solid #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.features-1 h3 {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.footer {
+    background: bisque;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    font-size: 12px;
+}
